@@ -1,0 +1,1 @@
+Just a Fun vanilla javascript typing game for friends !!
