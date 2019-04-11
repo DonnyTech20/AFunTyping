@@ -60,12 +60,12 @@ const start = () => {
 const reset = () => {
 	clearInterval(interval);
 	interval = null;
-	timer = [0,0,0,0];
+	timer = [ 0, 0, 0, 0 ];
 	timerRunning = false;
 
-	testArear.value = "";
-	theTimer.innerHTML = "00:00:00";
-	testWrapper.style.borderColor = "grey"; 
+	testArear.value = '';
+	theTimer.innerHTML = '00:00:00';
+	testWrapper.style.borderColor = 'grey';
 };
 
 // Event listeners for keyboard input and the reset button:
